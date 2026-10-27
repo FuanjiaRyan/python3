@@ -1,0 +1,16 @@
+first_name = input("Enter First Name: ").title()
+last_name = input("Enter Last Name: ").title()
+email = input("Enter Email: ").lower()
+country = input("Enter Country: ").title()
+
+print("====================")
+print("USER PROFILE")
+print("====================")
+print("")
+print(f"Name: {first_name} {last_name}".strip)
+print(f"Email: {email}.strip")
+print("@" in email)
+print(email.endswith(".com"))
+print("")
+print("====================")
+
