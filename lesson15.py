@@ -7,9 +7,6 @@ def create_profile(name, age, country="Cameroon"):
 
     return
 
-pro1 = create_profile("Ryan", 20, "Nigeria")
-pro2 = create_profile("Ryan", 20)
-
-print(pro1)
+create_profile("Ryan", 20, "Nigeria")
 print("")
-print(pro2)
+create_profile("Ryan", 20)
